@@ -1686,6 +1686,7 @@ dependencies = [
     { name = "polyscope" },
     { name = "scikit-learn" },
     { name = "scikit-tda" },
+    { name = "scipy" },
 ]
 
 [package.dev-dependencies]
@@ -1708,6 +1709,7 @@ requires-dist = [
     { name = "polyscope", specifier = ">=2.3.0" },
     { name = "scikit-learn", specifier = ">=1.6.1" },
     { name = "scikit-tda", specifier = ">=1.1.1" },
+    { name = "scipy", specifier = ">=1.15.2" },
 ]
 
 [package.metadata.requires-dev]
